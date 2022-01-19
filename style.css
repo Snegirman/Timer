@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.timer {
+    width: 100%;
+}
+
+.timer__container .title {
+    text-align: center;
+    font-size: 6em;
+}
+
+.timer__container .timer {
+    margin-top: 60px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer__container .timer__block {
+    width: 20vw;
+    height: 25vh;
+    background: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.timer__container .timer__block span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 5em;
+    font-weight: 700;
+}
